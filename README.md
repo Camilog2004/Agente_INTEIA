@@ -3,14 +3,16 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)  
 [![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)](https://www.mongodb.com/atlas)  
 [![Gemini](https://img.shields.io/badge/Google-Gemini_AI-orange?logo=google)](https://deepmind.google/technologies/gemini/)  
-[![Selenium](https://img.shields.io/badge/Selenium-Automation-brightgreen?logo=selenium)](https://www.selenium.dev/)  
+[![SeleniumBase](https://img.shields.io/badge/SeleniumBase-UndetectedDriver-brightgreen?logo=selenium)](https://seleniumbase.io/)  
+
+---  
 
 ---
 
 ## 🌐 Descripción General  
 Este proyecto automatiza la búsqueda y análisis de **convocatorias publicadas en el SECOP II** (plataforma oficial de contratación pública en Colombia).  
 
-Mediante **Selenium** y **BeautifulSoup**, se realiza un **web scraping estructurado** para extraer información de procesos publicados.  
+Mediante **SeleniumBase** y **BeautifulSoup**, se realiza un **web scraping estructurado** para extraer información de procesos publicados.  
 Lo innovador: el proyecto incorpora **inteligencia artificial (Google Gemini)** para:  
 
 ✅ **Interpretar el contexto desestructurado** de cada convocatoria.  
@@ -22,7 +24,9 @@ Lo innovador: el proyecto incorpora **inteligencia artificial (Google Gemini)** 
 
 ## ⚙️ Flujo del Proyecto  
 
-1. **Scraping con Selenium**  
+Se usa SeleniumBase para superar captcha e imitar el comportamiento humano.
+
+1. **Scraping con SeleniumBase**  
    - Automatiza la búsqueda en el portal del **SECOP II**, ingresando rangos de fechas.  
    - Recorre todas las páginas de resultados y obtiene enlaces únicos de cada convocatoria.  
 

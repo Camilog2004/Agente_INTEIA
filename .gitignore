@@ -1,7 +1,9 @@
-
+/.venv
 /venv/
 **/venv/
 selenium_env/
+downloaded_files/
+__pycache__/
 
 
 .env
