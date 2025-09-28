@@ -83,6 +83,7 @@ decidir si es una convocatoria postulable o no.
   ],
   "urlConvocatoria": "https://community.secop.gov.co/Public/Tendering/OpportunityDetail/Index?noticeUID=xxxx"
 }
+```
 
 ### Convocatoria no postulable
 ```json
@@ -90,4 +91,5 @@ decidir si es una convocatoria postulable o no.
   "esPostulable": false,
   "motivoNoPostulable": "El proceso está restringido a MIPYMES locales con domicilio en el municipio."
 }
+```
 
