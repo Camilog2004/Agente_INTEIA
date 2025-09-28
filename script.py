@@ -202,7 +202,8 @@ import json
 import re
 
 # Conexión a MongoDB
-MONGO_URL = "mongodb+srv://karolopez1010:0XqKdPGNNVh6Zzed@cluster0.eiftxze.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+#Escribe la direccion url de tu cluster de MongoDB, el cliente y la coleccion
+MONGO_URL = ""
 client = MongoClient(MONGO_URL)
 db = client["inteiaDB"]
 coleccion = db["oportunidad"]
